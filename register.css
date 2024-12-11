@@ -1,0 +1,79 @@
+body{
+  background-image: url('/drink (2).jpg');
+  margin: 0;
+}
+
+.container{
+  background: rgba(255,255,0,0.1);
+  border-radius: 20px;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.logo{
+  display: block;
+  margin: -50px auto;
+   width: 200px;
+}
+
+label{
+  color: white;
+  margin-top: 5px;
+}
+
+label,input{
+  display: block;
+}
+
+input{
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:3px solid white;
+  margin: 5px auto;
+  width: 100%;
+  outline: none;
+  padding: 7px 0;
+  color:white;
+}
+
+input.my-text{
+  font-size: 18px;
+}
+
+.checkbox{
+  margin:20px auto;
+  margin-bottom: 0;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+
+.button{
+  width: 40%;
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.footer{
+  width: 100%;
+  background-color: white;
+}
+
+.lab{
+  display: inline-block;
+}
+
+input[type="checkbox"]{
+  vertical-align: middle;
+}
+
+a{
+  color:aqua;
+}

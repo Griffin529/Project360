@@ -1,0 +1,32 @@
+body{
+  background-image: url('/drink (2).jpg');
+}
+
+h1{
+  color: white;
+}
+
+.container{
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgba(255,255,0,0.1);
+  padding: 20px;
+}
+
+input,label{
+  display: block;
+}
+
+input{
+  width: 100%;
+  background-color: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  padding: 10px;
+}
+
+label{
+  color:white;
+}
